@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    background-color:#f5fffb;
+    font-family: "Times New Roman", Times, serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.container h1 {
+    color: rgb(245, 223, 25); 
+    text-shadow: 1px 1px 0 #463c3c, 2px 2px 0 #423c3c, 3px 3px 0 #252323, 4px 4px 0 #413737;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+  
+.busca-container{
+    margin-block: 2.5rem;
+    padding: .625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.busca{
+    border-color: rgb(32, 173, 150);
+    background-color:transparent;
+    box-shadow: 10px 20px 40px rgba(87, 85, 85, 0.1);
+    padding-inline: 1.87rem;
+    border-radius: .625rem;
+    color:#615e5e;
+    font-size: 1rem;
+    line-height: 2.5rem;
+
+}
+  
+.pokemons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px,auto));
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+  
+.card{
+    max-width: 300px;
+    padding: 20px;
+    color: #222;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+  
+.card-img{
+    max-width: 150px;
+} 
+
+  
+.type{
+    color:#3b3333;
+    padding-top: 5px;
+    position: relative;
+    top: 45px;
+    transition: top 1s;
+    font-size: 1.25rem;
+}
+  
+.card:hover .type{
+    cursor: pointer;
+    top: 0;
+}
+
+.fire{
+    background-color: rgb(221, 69, 9); 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.grass {
+    background-color: aquamarine; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.psychic { 
+    background-color: #fdec55; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.fighting { 
+    background-color: #97aeb4; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} 
+.rock { 
+    background-color: #cec0c0; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} 
+.ghost { 
+    background-color: #8f8b8b; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+.water {
+    background-color: rgb(146, 213, 240);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+  
+.water .type .card{
+    color: #3b3333;
+}
+
+.bug {
+    background-color: #f8d5a3; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+  
+.normal {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+  
+.electric {
+    background-color: #f2eac6; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+  
+.ground {
+    background-color: #eeab9d; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+  
+.poison {
+    background-color: #b1e9bc; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+  
+.fairy {
+    background-color: #f1ddf5; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} 
+.dragon { 
+    background-color: #b1b094; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
